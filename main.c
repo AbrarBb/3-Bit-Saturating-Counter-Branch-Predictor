@@ -13,8 +13,8 @@ int main()
                            "Alternating Pattern", "Biased Taken (75%)"};
     int counters[] = {3, 3, 3, 3};  // Start all at 3 (weakly not taken)
     int total_correct = 0, total_predictions = 0;
+
     
-    printf("4-Member Team Branch Predictor Simulation\n");
     printf("3-bit Saturating Counter (0-7: N=0-3, T=4-7)\n");
     printf("==========================================\n");
     
